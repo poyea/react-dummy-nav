@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default bar = props =>(
+const Bar = props =>(
     <header>
         <nav>
             <div></div>
@@ -14,3 +14,5 @@ export default bar = props =>(
         </nav>
     </header>
 );
+
+export default Bar;
