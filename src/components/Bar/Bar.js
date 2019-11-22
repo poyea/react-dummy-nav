@@ -1,11 +1,13 @@
 import React from 'react';
-
+import Toggler from '../Sider/Toggler';
+import './Bar.css';
 const Bar = props =>(
-    <header>
-        <nav>
-            <div></div>
-            <div><a href="/">Home</a></div>
-            <div>
+    <header className="bar">
+        <nav className="bar__navigation">
+            <div><Toggler/></div>
+            <div className="bar__home"><a href="/">Home</a></div>
+            <div className="space"/>
+            <div className="bar__navigation-items">
                 <ul>
                     <li><a href="/">Foo</a></li>
                     <li><a href="/">Bar</a></li>

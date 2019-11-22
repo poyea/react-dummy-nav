@@ -1,0 +1,34 @@
+.sider {
+    height: 100%;
+    background: white;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 300px;
+    z-index: 200;
+}
+
+.sider ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.sider li {
+    margin: 0.5rem 0;
+}
+
+.sider a {
+    text-decoration: none;
+    color: salmon;
+    font-size: 1.5rem;
+}
+
+.sider a:hover,
+.sider a:active {
+    color: blueviolet;
+}
