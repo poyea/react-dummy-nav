@@ -15,18 +15,24 @@ class App extends Component {
     });
   };
 
+  backdropClickHandler = () => {
+    this.setState({
+      siderOpen: false,
+    });
+  };
+
   render(){
     let sider, backdrop;
     if(this.state.siderOpen){
       sider = <Sider />;
-      backdrop = <Backdrop />;
+      backdrop = <Backdrop click={this.backdropClickHandler}/>;
     }
   
     return (
       <div className="App">
-        <Bar/>
-        (sider);
-        (backdrop);
+        <Bar togglerClickHandler={this.togglerClickHandler}/>
+        {sider};
+        {backdrop};
         <main style={{marginTop: "45px"}}>
           <p>This is the home page!</p>
         </main>
