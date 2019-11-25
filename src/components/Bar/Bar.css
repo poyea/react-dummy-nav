@@ -48,3 +48,18 @@
 .bar__navigation-items a:active {
     color: blanchedalmond;
 }
+
+@media (max-width: 750px) {
+    .bar__navigation-items {
+        display: none;
+    }
+}
+
+@media (min-width: 751px) {
+    .bar__toggler {
+        display: none;
+    }
+    .bar__home {
+        margin-left: 0;
+    }
+}

@@ -22,16 +22,15 @@ class App extends Component {
   };
 
   render(){
-    let sider, backdrop;
+    let backdrop;
     if(this.state.siderOpen){
-      sider = <Sider />;
       backdrop = <Backdrop click={this.backdropClickHandler}/>;
     }
   
     return (
       <div className="App">
         <Bar togglerClickHandler={this.togglerClickHandler}/>
-        {sider};
+        <Sider show={this.state.siderOpen}/>
         {backdrop};
         <main style={{marginTop: "45px"}}>
           <p>This is the home page!</p>

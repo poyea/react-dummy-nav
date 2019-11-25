@@ -16,7 +16,13 @@
 }
 
 .toogler__line {
-    width: 24px;
-    height: 2px;
+    width: 22px;
+    height: 2.5px;
     background: white;
+}
+
+@media (min-width: 751px) {
+    .toggler {
+        display: none;
+    }
 }
