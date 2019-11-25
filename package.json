@@ -6,18 +6,17 @@
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react-dom": "^16.12.0"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "repository": "git+https://github.com/poyea/react-dummy-nav.git",
-  "homepage": "http://poyea.github.io/react-dummy-nav",
+  "homepage": "https://poyea.github.io/react-dummy-nav",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -32,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-scripts": "^3.2.0"
   }
 }
