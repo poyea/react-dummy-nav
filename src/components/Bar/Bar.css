@@ -4,11 +4,15 @@
     top: 0;
     left: 0;
     background: #242f57;
-    height: 45px;
+    height: 50px;
 }
 
 .bar__home {
     margin-left: 1rem;
+}
+
+.bar__toggler {
+    margin-top: 5px;
 }
 
 .bar__navigation {
@@ -36,7 +40,11 @@
 }
 
 .bar__navigation-items li {
-    margin: 0 5px;
+    margin: 0 10px;
+    padding: 1px 10px 2px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blanchedalmond;
 }
 
 .bar__navigation-items a {

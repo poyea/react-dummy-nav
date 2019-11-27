@@ -9,6 +9,7 @@ const Sider = props => {
     return (
         <nav className={siderClass}>
             <ul>
+                <li>Home</li>
                 <li><a href="/">Foo</a></li>
                 <li><a href="/">Bar</a></li>
             </ul>

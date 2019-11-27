@@ -32,7 +32,7 @@ class App extends Component {
         <Bar togglerClickHandler={this.togglerClickHandler}/>
         <Sider show={this.state.siderOpen}/>
         {backdrop};
-        <main style={{marginTop: "45px"}}>
+        <main>
           <p>This is the home page!</p>
         </main>
       </div>
