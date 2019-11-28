@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-dummy-nav/static/css/main.7de4f442.chunk.css",
+    "main.css": "/react-dummy-nav/static/css/main.6537dacb.chunk.css",
     "main.js": "/react-dummy-nav/static/js/main.3b31f2a0.chunk.js",
     "main.js.map": "/react-dummy-nav/static/js/main.3b31f2a0.chunk.js.map",
     "runtime-main.js": "/react-dummy-nav/static/js/runtime-main.47455f11.js",
@@ -8,14 +8,14 @@
     "static/js/2.625be164.chunk.js": "/react-dummy-nav/static/js/2.625be164.chunk.js",
     "static/js/2.625be164.chunk.js.map": "/react-dummy-nav/static/js/2.625be164.chunk.js.map",
     "index.html": "/react-dummy-nav/index.html",
-    "precache-manifest.ab31064d058693b2c871556c5474eaf5.js": "/react-dummy-nav/precache-manifest.ab31064d058693b2c871556c5474eaf5.js",
+    "precache-manifest.a9cfdce7d9028a10fefbd1107bbd305c.js": "/react-dummy-nav/precache-manifest.a9cfdce7d9028a10fefbd1107bbd305c.js",
     "service-worker.js": "/react-dummy-nav/service-worker.js",
-    "static/css/main.7de4f442.chunk.css.map": "/react-dummy-nav/static/css/main.7de4f442.chunk.css.map"
+    "static/css/main.6537dacb.chunk.css.map": "/react-dummy-nav/static/css/main.6537dacb.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.47455f11.js",
     "static/js/2.625be164.chunk.js",
-    "static/css/main.7de4f442.chunk.css",
+    "static/css/main.6537dacb.chunk.css",
     "static/js/main.3b31f2a0.chunk.js"
   ]
 }
