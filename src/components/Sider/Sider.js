@@ -9,12 +9,13 @@ const Sider = props => {
     if(props.show){
         siderClass = ['sider open'];
     }
+
     return (
         <nav className={siderClass}>
             <ul>
                 <li>Home</li>
-                <li><Link to="/about">Foo</Link></li>
-                <li><Link to="/contact">Bar</Link></li>
+                <li><Link to="/about" onClick={props.togglerClickHandler}>Foo</Link></li>
+                <li><Link to="/contact" onClick={props.togglerClickHandler}>Bar</Link></li>
             </ul>
         </nav>
     );

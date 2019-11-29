@@ -37,7 +37,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Bar togglerClickHandler={this.togglerClickHandler}/>
-          <Sider show={this.state.siderOpen}/>
+          <Sider show={this.state.siderOpen} togglerClickHandler={this.togglerClickHandler}/>
           {backdrop};
           <main>
             <Switch>
