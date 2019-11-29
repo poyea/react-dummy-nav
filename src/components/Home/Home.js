@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import {
+    useLocation
+} from "react-router-dom";
 
-class Home extends Component {
-  render(){
+const Home = () => {
+    let location = useLocation();
     return (
-        <p>This is the home page!</p>
+            <p>This is the home page from {location.pathname}!</p>
     );
-  }
-}
+};
 
 export default Home;

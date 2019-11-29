@@ -15,8 +15,8 @@ const Bar = props =>(
             <div className="space"/>
             <div className="bar__navigation-items">
                 <ul>
-                    <li><Link to="/about" from="foo">Foo</Link></li>
-                    <li><Link to="/contact" from="bar">Bar</Link></li>
+                    <li><Link to="/about">Foo</Link></li>
+                    <li><Link to="/contact">Bar</Link></li>
                 </ul>
             </div>
         </nav>
