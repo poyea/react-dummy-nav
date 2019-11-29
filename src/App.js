@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 import './App.css';
 import Bar from './components/Bar/Bar';
 import Sider from './components/Sider/Sider';
 import Backdrop from './components/Backdrop/Backdrop';
+import Home from './components/Home/Home';
 
 class App extends Component {
   state = {
@@ -28,14 +34,22 @@ class App extends Component {
     }
   
     return (
-      <div className="App">
-        <Bar togglerClickHandler={this.togglerClickHandler}/>
-        <Sider show={this.state.siderOpen}/>
-        {backdrop};
-        <main>
-          <p>This is the home page!</p>
-        </main>
-      </div>
+      <Router>
+        <div className="App">
+          <Bar togglerClickHandler={this.togglerClickHandler}/>
+          <Sider show={this.state.siderOpen}/>
+          {backdrop};
+          <main>
+            <Switch>
+              <Route exact path="/" component={Home}/>
+              <Route path="/about" component={Home}/>
+              <Route path="/contact" component={Home}/>
+              <Route component={Error}/>
+            </Switch>
+          </main>
+        </div>
+      </Router>
+
     );
   }
 }

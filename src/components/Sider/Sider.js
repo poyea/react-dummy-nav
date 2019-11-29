@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+    Link
+} from "react-router-dom";
 import './Sider.css';
 
 const Sider = props => {
@@ -10,8 +13,8 @@ const Sider = props => {
         <nav className={siderClass}>
             <ul>
                 <li>Home</li>
-                <li><a href="/">Foo</a></li>
-                <li><a href="/">Bar</a></li>
+                <li><Link to="/about" from="foo">Foo</Link></li>
+                <li><Link to="/contact" from="bar">Bar</Link></li>
             </ul>
         </nav>
     );

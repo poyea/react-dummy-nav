@@ -1,18 +1,22 @@
 import React from 'react';
+import {
+    Link
+} from "react-router-dom";
 import Toggler from '../Sider/Toggler';
 import './Bar.css';
+
 const Bar = props =>(
     <header className="bar">
         <nav className="bar__navigation">
             <div className="bar__toggler">
                 <Toggler click={props.togglerClickHandler}/>
             </div>
-            <div className="bar__home"><a href="/">Home</a></div>
+            <div className="bar__home"><Link to="/">Home</Link></div>
             <div className="space"/>
             <div className="bar__navigation-items">
                 <ul>
-                    <li><a href="/">Foo</a></li>
-                    <li><a href="/">Bar</a></li>
+                    <li><Link to="/about" from="foo">Foo</Link></li>
+                    <li><Link to="/contact" from="bar">Bar</Link></li>
                 </ul>
             </div>
         </nav>
