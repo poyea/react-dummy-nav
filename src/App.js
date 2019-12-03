@@ -10,6 +10,7 @@ import Sider from './components/Sider/Sider';
 import Backdrop from './components/Backdrop/Backdrop';
 import Home from './components/Home/Home';
 
+
 class App extends Component {
   state = {
     siderOpen: false,

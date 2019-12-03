@@ -17,7 +17,7 @@
     "eject": "react-scripts eject"
   },
   "repository": "git+https://github.com/poyea/react-dummy-nav.git",
-  "homepage": ".",
+  "homepage": "https://poyea.github.io/react-dummy-nav",
   "eslintConfig": {
     "extends": "react-app"
   },
