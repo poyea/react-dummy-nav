@@ -38,7 +38,7 @@ class App extends Component {
     }
   
     return (
-      <Router>
+      <Router basename="/react-dummy-nav">
         <div className="App">
           <Bar togglerClickHandler={this.togglerClickHandler}/>
           <Sider show={this.state.siderOpen} togglerClickHandler={this.togglerClickHandler}/>
