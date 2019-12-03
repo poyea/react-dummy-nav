@@ -9,6 +9,9 @@ import Bar from './components/Bar/Bar';
 import Sider from './components/Sider/Sider';
 import Backdrop from './components/Backdrop/Backdrop';
 import Home from './components/Home/Home';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+
 
 
 class App extends Component {
@@ -43,8 +46,8 @@ class App extends Component {
           <main>
             <Switch>
               <Route exact path="/" component={Home}/>
-              <Route path="/about" component={Home}/>
-              <Route path="/contact" component={Home}/>
+              <Route path="/about" component={About}/>
+              <Route path="/contact" component={Contact}/>
             </Switch>
           </main>
         </div>
