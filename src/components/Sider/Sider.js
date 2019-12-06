@@ -14,8 +14,8 @@ const Sider = props => {
         <nav className={siderClass}>
             <ul>
                 <li>Home</li>
-                <li><Link to="/about" onClick={props.togglerClickHandler}>Foo</Link></li>
-                <li><Link to="/contact" onClick={props.togglerClickHandler}>Bar</Link></li>
+                <li><Link to="/about" onClick={props.togglerClickHandler}>About</Link></li>
+                <li><Link to="/contact" onClick={props.togglerClickHandler}>Contact</Link></li>
             </ul>
         </nav>
     );
