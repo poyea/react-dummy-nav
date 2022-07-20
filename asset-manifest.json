@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/react-dummy-nav/static/css/main.4e9c7784.chunk.css",
-    "main.js": "/react-dummy-nav/static/js/main.19cf1980.chunk.js",
-    "main.js.map": "/react-dummy-nav/static/js/main.19cf1980.chunk.js.map",
-    "runtime-main.js": "/react-dummy-nav/static/js/runtime-main.47455f11.js",
-    "runtime-main.js.map": "/react-dummy-nav/static/js/runtime-main.47455f11.js.map",
-    "static/js/2.616c92b4.chunk.js": "/react-dummy-nav/static/js/2.616c92b4.chunk.js",
-    "static/js/2.616c92b4.chunk.js.map": "/react-dummy-nav/static/js/2.616c92b4.chunk.js.map",
+    "main.js": "/react-dummy-nav/static/js/main.d40a4f5e.chunk.js",
+    "main.js.map": "/react-dummy-nav/static/js/main.d40a4f5e.chunk.js.map",
+    "runtime-main.js": "/react-dummy-nav/static/js/runtime-main.4014a5f3.js",
+    "runtime-main.js.map": "/react-dummy-nav/static/js/runtime-main.4014a5f3.js.map",
+    "static/js/2.c51c6541.chunk.js": "/react-dummy-nav/static/js/2.c51c6541.chunk.js",
+    "static/js/2.c51c6541.chunk.js.map": "/react-dummy-nav/static/js/2.c51c6541.chunk.js.map",
     "index.html": "/react-dummy-nav/index.html",
-    "precache-manifest.8de722c90e66008dfef9306bdf41e179.js": "/react-dummy-nav/precache-manifest.8de722c90e66008dfef9306bdf41e179.js",
+    "precache-manifest.ae8d3357c9e894276f4d855896e8f970.js": "/react-dummy-nav/precache-manifest.ae8d3357c9e894276f4d855896e8f970.js",
     "service-worker.js": "/react-dummy-nav/service-worker.js",
     "static/css/main.4e9c7784.chunk.css.map": "/react-dummy-nav/static/css/main.4e9c7784.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.47455f11.js",
-    "static/js/2.616c92b4.chunk.js",
+    "static/js/runtime-main.4014a5f3.js",
+    "static/js/2.c51c6541.chunk.js",
     "static/css/main.4e9c7784.chunk.css",
-    "static/js/main.19cf1980.chunk.js"
+    "static/js/main.d40a4f5e.chunk.js"
   ]
 }
